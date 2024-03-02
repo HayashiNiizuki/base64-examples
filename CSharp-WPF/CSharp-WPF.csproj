@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>CSharp_WPF</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Down.png" />
+    <None Remove="Resources\Up.png" />
+    <None Remove="Resources\window-icon.jpg" />
+    <None Remove="Resources\window-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Down.png" />
+    <Resource Include="Resources\Up.png" />
+    <Resource Include="Resources\window-icon.png" />
+  </ItemGroup>
+
+</Project>
